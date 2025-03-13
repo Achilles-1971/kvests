@@ -1,0 +1,21 @@
+# Requirements for QuestStudio Django API
+# Generated on March 13, 2025
+
+# Core Django
+Django==5.0.3  # Последняя стабильная версия на март 2025 (предположительно, обновление с 4.2)
+
+# Django REST Framework for API
+djangorestframework==3.15.0  # Актуальная версия на октябрь 2023, возможно 3.16 к 2025
+
+# Database (optional, uncomment if needed)
+# psycopg2-binary==2.9.9  # Для PostgreSQL, если используется
+
+# Development tools
+python-decouple==3.8  # Для работы с .env файлами
+django-environ==0.11.2  # Альтернатива для управления настройками
+
+# Optional: Authentication (uncomment if needed)
+# djangorestframework-simplejwt==5.3.1  # Для JWT-аутентификации
+
+# Optional: Debugging
+django-debug-toolbar==4.3.0  # Для отладки в разработке
